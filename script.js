@@ -57,7 +57,7 @@ let categories = [
     },
 ]
 
-let Maxprice = {}
+let Maxprice = []
 let Minprice = {}
 
 
@@ -69,9 +69,13 @@ for (let product of products) {
             category.arr.push(product.name)
             category.total += product.price
         }
+   
+     }  
+
     }
    
     
-}
+
 
 console.log(categories);
+
